@@ -1,6 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
+  font-family: "Arial";
+  font-weight: 1000;
 }
 
 .bgimg {
@@ -10,16 +12,7 @@ body, html {
   background-size: cover;
   position: relative;
   color: #fff;
-  font-family: "Arial";
-  font-weight: 1000;
   font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-  color: #fff;
 }
 
 .middle {
@@ -30,11 +23,43 @@ body, html {
   text-align: center;
   font-size: 32px;
   color: #fff;
+  cursor: default;
 }
 
-hr {
-  margin: auto;
-  border: 2px solid white;
-  border-radius: 50px;
-  background-color: white;
+h1
+{
+  margin: 10px;
+}
+
+.topleft
+{
+  position: absolute;
+  top: 0;
+  left: 16px;
+  color: #fff;
+  font-family: "Arial";
+  font-weight: 1000;
+}
+
+h3
+{
+  background-color: transparent;
+  background: rgb(0, 0, 0, 0.5);
+  padding: 10px 50px;
+  border: 7px solid burlywood;
+  border-radius: 30px;
+  color: #fff;
+  cursor: default;
+  margin: 10px;
+}
+
+.underConstructionText
+{
+  font-family: verdana;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
 }
