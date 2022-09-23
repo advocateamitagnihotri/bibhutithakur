@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url("bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  font-family: "Arial";
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  color: #fff;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+}
+
+hr {
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: white;
+}
